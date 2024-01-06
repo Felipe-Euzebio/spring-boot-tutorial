@@ -1,0 +1,13 @@
+welcome:
+  message: Welcome to Daily Code Buffer!
+  
+spring:
+  profiles:
+    active: dev
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env, beans"
